@@ -1,2 +1,4 @@
 # gas_station_locator
 Locates the most cost-effective gas station near user and helps determine whether driving to a specific gas station is financially worthwhile.
+
+In order to use this, one needs to have installed googlemaps, cloudscraper, and BeautifulSoup4. Furthermore, one will need to insert a googlemaps API key. This program will account for the car the user drives, specifically the car's mpg and tank size. It will also consider how much the user will need to fill up in gallons and where the user will begin their drive. Once given, the program will use gasbuddy to webscrape the cheapest gas within a certain radius from the given zip code, taking into consideration the fuel consumed to drive to the gas station. Following this, if the user has a specific gas station in mind, the program will compare the option provided initially with the user's preference, revealing the amount of money spent for each specific gas station. 
